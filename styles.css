@@ -1,0 +1,83 @@
+div.st-emotion-cache-cnbvxy.e1nzilvr5 {
+    color:rgb(0, 0, 0);
+    font-family: serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+span.st-emotion-cache-10trblm.e1nzilvr1 {
+    color:rgb(0, 0, 0);
+    font-family: serif;
+    font-size: 50px;
+    font-style: italic;
+}
+
+section.main.st-emotion-cache-uf99v8.ea3mdgi8 {
+    /* Agrega aquí tus estilos personalizados */
+    /* Por ejemplo: */
+    background-color: pink;
+    color: white;
+    font-size: 16px;
+}
+div.st-emotion-cache-1v0mbdj.e115fcil1{
+    margin: auto;
+    display: block;
+}
+
+body {
+    background-color: #fdfdff;
+    padding:40vh 0;
+  }
+  
+  .corazon {
+    animation: latido 1s infinite;
+    background-color: purple;
+    display: inline-block;
+    height: 50px;
+    margin: 0 10px;
+    top: 0;
+    transform: rotate(-45deg);
+    position: absolute; 
+    left: 45%; 
+    top: 45%;
+    width: 50px;
+  }
+  
+  .corazon:before,
+  .corazon:after {
+    content: "";
+    background-color: purple;
+    border-radius: 50%;
+    height: 50px;
+    position: absolute;
+    width: 50px;
+  }
+  
+  .corazon:before {
+    top: -25px;
+    left: 0;
+  }
+  
+  .corazon:after {
+    left: 25px;
+    top: 0;
+  }
+  
+  @keyframes latido {
+    0%
+    {
+      transform: scale( 1 )
+        rotate(-45deg);    
+    }
+    20%
+    {
+      transform: scale( 1.25 )
+        rotate(-45deg);  
+    }
+     40%
+    {
+      transform: scale( 1.5 )
+        rotate(-45deg);
+    }
+  }
