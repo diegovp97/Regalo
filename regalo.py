@@ -4,9 +4,6 @@ from streamlit_lottie import st_lottie
 import streamlit.components.v1 as components    
 import PIL.Image
 from io import BytesIO
-import matplotlib.pyplot as plt
-from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
-from matplotlib.figure import Figure
 import json
 
 st.markdown('<style>' + open('styles.css').read() + '</style>', unsafe_allow_html=True)
