@@ -1,0 +1,14 @@
+streamlit
+requests
+Pillow
+pymongo
+pandas
+yagmail
+markdown
+joblib
+tensorflow
+keras
+numpy
+bs4
+streamlit_lottie
+
